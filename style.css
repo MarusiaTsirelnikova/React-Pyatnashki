@@ -1,0 +1,86 @@
+body{
+    background-color: #1A320F;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'DotGothic16', 'sans-serif';
+    font-size: 64px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    width: 856px;
+    background-color: #83A958;
+    align-items: center;
+    width: 800px;
+    flex-direction: column;
+}
+
+.page-title{
+    margin: 56px 0px 80px;
+}
+
+.board{
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-between;
+    background-color: #D8E5C6;
+    border-radius: 25px;
+    width: 558px;
+    height: 558px;
+}
+
+.btn{
+    font-size: 24px;
+    color: white;
+    width: 186px;
+    height: 186px;
+    border-style: solid;
+    background-color: #A3C185;
+    border-radius: 25%;
+    border-color: #D8E5C6;
+    border-width: 36px;
+    cursor: pointer;
+}
+
+#empty{
+    width: 186px;
+    height: 186px;
+    background-color: #D8E5C6;
+    box-sizing: border-box;
+}
+
+#row0 {
+    display: flex;
+    height: 186px;
+}
+
+#row1 {
+    display: flex;
+    height: 186px;
+}
+
+#row2 {
+    display: flex;
+    height: 186px;
+}
+
+#mixbtn{
+    width: 328px;
+    height: 66px;
+    margin: 79px 0px 49px;
+    background-color: #556C3A;
+    font-size: 24px;
+    border-radius: 25px;
+    color: white;
+}
+
+@font-face {
+    font-family: "DotGothic16";  
+    src: url("/fonts/DotGothic16-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
